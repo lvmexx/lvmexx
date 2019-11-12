@@ -1,0 +1,36 @@
+6步完成本地代码提交到线上gitee仓库
+
+
+1. git add .
+
+
+将本地代码添加到暂存区（这步操作只是将你提交的代码提交到gitee仓库，暂存区是一个介于你的工作区和版本库的中间状态）
+
+2. gie commit -m 'youmessages'
+
+
+youmessages 用来描述你本次提交代码都做了哪些操作。
+
+3. git push
+
+
+将本地分支的代码更新推送到远程主机上。
+
+4. git checkout master
+
+
+如果你希望下一步的时候，mergin到你的master分支上的话， 签出你的master主分支,为下一步合并本地分支到线上主分支做准备。
+
+5. git merge origin/newbranch
+
+
+newbranch即你刚才新建的分支名。直到在git checkout master这一步之前，你一直都在这个分支上完成 git add .、gie commit -m 'youmessages'、git push这些操作。
+
+6. git push
+
+
+到这里一步，本地的代码就全部提交到线上仓库了，并且同步了！
+
+7. npm run start
+
+再来一步npm run start重启服务器，看看代码是不是已经更新了！
