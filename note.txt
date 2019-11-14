@@ -1,0 +1,9 @@
+vue-cli3配置：https://juejin.im/post/5bd02f98e51d457a944b634f
+
+canvas签名：https://juejin.im/post/5d0192ce518825382565c4e5
+
+git使用：https://www.cnblogs.com/yangzixuan/p/10908064.html
+
+vue组件汇总：https://juejin.im/post/5af16a2cf265da0b8636353b
+
+vant-weapp: https://youzan.github.io/vant-weapp/#/intro
